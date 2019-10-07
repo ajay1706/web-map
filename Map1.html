@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_bb1f988863724e579452f27c97f89a52 {
+                #map_baa7cb2a3f994c64a1f68d7a6b11c1dd {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_bb1f988863724e579452f27c97f89a52" ></div>
+            <div class="folium-map" id="map_baa7cb2a3f994c64a1f68d7a6b11c1dd" ></div>
         
 </body>
 <script>    
     
-            var map_bb1f988863724e579452f27c97f89a52 = L.map(
-                "map_bb1f988863724e579452f27c97f89a52",
+            var map_baa7cb2a3f994c64a1f68d7a6b11c1dd = L.map(
+                "map_baa7cb2a3f994c64a1f68d7a6b11c1dd",
                 {
                     center: [17.441677, 78.364666],
                     crs: L.CRS.EPSG3857,
@@ -55,32 +55,62 @@
 
         
     
-            var tile_layer_30d84b12b1414537ad34bb89a42509bb = L.tileLayer(
+            var tile_layer_f34afcea114c41c58474c379704ef48f = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_bb1f988863724e579452f27c97f89a52);
+            ).addTo(map_baa7cb2a3f994c64a1f68d7a6b11c1dd);
         
     
-            var marker_757397cab7ce4925bb4c6dd1c07a5198 = L.marker(
+            var feature_group_64e5e9ee695d42b7b3b2bc9cd1553851 = L.featureGroup(
+                {}
+            ).addTo(map_baa7cb2a3f994c64a1f68d7a6b11c1dd);
+        
+    
+            var marker_d440cf0c67f448fab6f9c0319fcf2281 = L.marker(
                 [17.441677, 78.364666],
                 {}
-            ).addTo(map_bb1f988863724e579452f27c97f89a52);
+            ).addTo(feature_group_64e5e9ee695d42b7b3b2bc9cd1553851);
         
     
-            var icon_089e9ed3b9d24b4babd987b2668b3e16 = L.AwesomeMarkers.icon(
+            var icon_7494a31497404f8aa56bc9e0d9cfe146 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_757397cab7ce4925bb4c6dd1c07a5198.setIcon(icon_089e9ed3b9d24b4babd987b2668b3e16);
+            marker_d440cf0c67f448fab6f9c0319fcf2281.setIcon(icon_7494a31497404f8aa56bc9e0d9cfe146);
         
     
-        var popup_41a3c8bc593542df94a489ac469b740a = L.popup({"maxWidth": "100%"});
+        var popup_0f727cf5f33041679db7f2c21f03be8e = L.popup({"maxWidth": "100%"});
 
         
-            var html_efa03a9970764f15bb978ae26016a0c9 = $(`<div id="html_efa03a9970764f15bb978ae26016a0c9" style="width: 100.0%; height: 100.0%;">Hostel</div>`)[0];
-            popup_41a3c8bc593542df94a489ac469b740a.setContent(html_efa03a9970764f15bb978ae26016a0c9);
+            var html_75c4054baaa747e3a19b31e8d1a0ec4f = $(`<div id="html_75c4054baaa747e3a19b31e8d1a0ec4f" style="width: 100.0%; height: 100.0%;">Hostel</div>`)[0];
+            popup_0f727cf5f33041679db7f2c21f03be8e.setContent(html_75c4054baaa747e3a19b31e8d1a0ec4f);
         
 
-        marker_757397cab7ce4925bb4c6dd1c07a5198.bindPopup(popup_41a3c8bc593542df94a489ac469b740a)
+        marker_d440cf0c67f448fab6f9c0319fcf2281.bindPopup(popup_0f727cf5f33041679db7f2c21f03be8e)
+        ;
+
+        
+    
+    
+            var marker_dd0688ae35ad4f66bedd46be25495062 = L.marker(
+                [17.651677, 78.408666],
+                {}
+            ).addTo(feature_group_64e5e9ee695d42b7b3b2bc9cd1553851);
+        
+    
+            var icon_8b3338ceef0248559cf103fad4d6eb61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd0688ae35ad4f66bedd46be25495062.setIcon(icon_8b3338ceef0248559cf103fad4d6eb61);
+        
+    
+        var popup_ec3b883b0bb24015a5033d67a0b45db0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53a4563f9e1743578d1ca61e49e18861 = $(`<div id="html_53a4563f9e1743578d1ca61e49e18861" style="width: 100.0%; height: 100.0%;">Hostel</div>`)[0];
+            popup_ec3b883b0bb24015a5033d67a0b45db0.setContent(html_53a4563f9e1743578d1ca61e49e18861);
+        
+
+        marker_dd0688ae35ad4f66bedd46be25495062.bindPopup(popup_ec3b883b0bb24015a5033d67a0b45db0)
         ;
 
         
